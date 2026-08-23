@@ -104,7 +104,7 @@ print(total)
 #range() function is used to generate a sequence of numbers. 
 #It can take one, two, or three arguments.
 
-range(6) # generates numbers from 0 to 4
+range(6) # generates numbers from 0 to 5
 range(1, 6) # generates numbers from 1 to 5
 x=range(1, 11, 2) # generates numbers from 1 to 10 with a stepcount of 2
 
