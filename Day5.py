@@ -1,6 +1,6 @@
 #day 5 of learning python ( loops )
 
-#----------while loop-------------
+#while loop
 
 #print numbers from 1 to 5 using while loop
 i=1
@@ -22,6 +22,13 @@ while i<=10:
   print("hello",i)
   i=i+1
 print("end of loop")
+
+# Ask user for a number
+n = int(input("Enter a number: "))
+i = 1
+while i <= n:
+    print(i, end=" ")
+    i = i + 1
 
 #multiplication table using while loop
 i=1
@@ -130,6 +137,10 @@ for i in range(2,11,2):
 for i in range(1,11,2):
   print(i,end=" ")
 
+# Ask user for a number
+n = int(input("Enter a number: "))
+for i in range(1, n + 1):
+    print(i, end=" ")
 
 #for loop to print every character in a string
 a="chetan"
@@ -189,4 +200,4 @@ fact=1
 n=int(input("enter a number:"))
 for i in range(1,n+1):
   fact=fact*i
-print(fact)
+print(fact)  
