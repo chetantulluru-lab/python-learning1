@@ -45,7 +45,3 @@ print(f'''length of string "{n}" is {len(n)}''')
 #program to find $ in a string
 i="Hey my daily payout in america is 99.9$"
 i.find("$")
- 
-
-
-    
